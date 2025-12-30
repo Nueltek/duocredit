@@ -23,6 +23,12 @@
 }
 
 @layer base {
+  /* Fix horizontal scroll on mobile */
+  html,
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
   html {
     scroll-behavior: smooth;
   }
