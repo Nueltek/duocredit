@@ -315,7 +315,7 @@ export default function Hero() {
             </motion.div>
 
             {/* Premium Visual Element */}
-            <div className="relative overflow-hidden lg:overflow-visible">
+            <div className="relative ">
               {/* Main Card Stack Visual */}
               <div className="relative w-full max-w-md">
                 {/* Background Cards */}
